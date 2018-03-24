@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Homepage</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="home/css/font-icons.css" type="text/css" /><style>
+* {box-sizing:border-box}
+
+
+body 
+{background-color:white;
+font-family: Verdana, Geneva, sans-serif;
+font-size:14px;
+}
+
+
+
+
+
+.container {
+  position: absolute;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 140%;
+  height: 100px;
+
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 170px;
+  right: 250px;
+  height: 100%;
+  width: 140%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.container:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: Black;
+  font-size: 40px;
+font-family: "Comic sans ms";
+font-style: oblique;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+a.apply:hover {background: silver;}
+
+
+
+.fa {
+  padding: 9px;
+  font-size: 12px;
+  width: 7px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 1px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+#icons
+{
+float:right;
+}
+
+#header{
+background-color:white;
+color:white;
+font-size:18px;
+font-weight:bold;
+text-align:center;
+}
+.nav{
+margin-top:60px;
+float:left;
+width:200px;}
+
+.article{
+margin-left:250px;
+border-left:1px solid black;
+
+}
+.footer{padding:15px;
+color:white;
+background-color:black;
+text-align:center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    float: middle ;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+
+
+
+
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2000px;
+  margin: auto;
+
+}
+
+/* Caption text */
+.textss {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+}
+
+
+</style>
+</head>
+<body>
+<div id="header">
+<img src="lpu.png" width="15%" height="15%" style="float:left">
+</div>
+<div class="container" >
+<img src="header.jpg" class="image" hspace=170 width="69%" height="100" style="float:left">
+<div class="overlay">
+    <div class="text">Tranforming India, Transforming Education</div>
+  </div>
+</div>
+
+<div id ="icons">
+<!-- Add font awesome icons -->
+<a href="https://www.facebook.com/LPUUniversity/" target="blank" class="fa fa-facebook"></a>
+<a href="https://twitter.com/lpuuniversity" target="blank" class="fa fa-twitter"></a>
+<a href="https://plus.google.com/+LpuIn-lovely-professional-university" target="blank" class="fa fa-google"></a>
+<a href="https://in.linkedin.com/in/lovelyprofessionaluniversity" target="blank" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-rss"></a>
+</div>
+<br><br><br><br><br><br>
+<ul >
+<li><a href="home.html">Home   </a></li>
+<li><a href="courses.html">Courses  </a></li>
+<li><a href="adm.html">Admissions  </a></li>
+<li><a href="faculty.html">Faculty  </a></li>
+<li><a href="host.html">Hostel Facilities  </a></li>
+<li><a href="pc.html">Placement Cell  </a></li>
+<li><a href="eventa.html">Events  </a></li>
+<li><a href="about.html">About  </a></li>
+<li><a href="cu.html">Contact Us  </a></li>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li><br></li>
+<li style=" background-color: #f48220 ;"> <a style="color: #000;"  class="apply" href="http://admission.lpu.in/index?Nest=Engineering" target="_blank">Apply Now</a> </li>
+</ul>
+
+
+<br>
+
+<div class="slideshow-container" align= "center">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 /8</div>
+  <img src="Homepic.jpg"  style="width:90%">
+  </div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 /8</div>
+  <img src="Homepic1.jpg"  style="width:90%">
+  
+</div>
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 8</div>
+  <img src="Homepic2.jpg"  style="width:90%">
+  
+</div>
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 8</div>
+  <img src="Homepic3.jpg"  style="width:90%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 8</div>
+  <img src="Homepic5.jpg"  style="width:90%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 8</div>
+
+  <img src="Homepic6.jpg"  style="width:90%">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7/ 8</div>
+  <img src="Homepic7.jpg"  style="width:90%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 8</div>
+  <img src="Homepic4.jpg"  style="width:90%">
+  
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+<span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+<span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</div>
+<br>
+
+
+
+
+
+
+
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<br>
+
+<hr width=30%>
+<br>
+                                                                               <center>     <h1>Latest News!</h1>
+              <h3>LPU strikes deals with Google, SAP, Oracle etc to offer free industry training to students!</h3> </center>
+<br>
+<hr width=30%>
+<table cellpadding="70">
+  
+  <tr>
+           <td>
+<img src="t1.png" width=100%/>
+<br>
+<b><u>LPU JOINS HANDS WITH VMWARE IT ACADEMY</u></b>
+<br><br>
+VMware Academy sets up vExperience Centre at LPU for giving LPU students and faculty exposure to VMware products like vSphere, vSAN, NSX, Workspace, Airwatch and vCloud, including training and certifications, for making India Skill Destination of the World.<br><br>
+<a href="https://mylearn.vmware.com/mgrReg/plan.cfm?plan=69513&ui=www_edu" target="_blank" class="more-link">Read More</a></td>
+            <td>
+<img src="t2.jpg" width=100%/>
+<br>
+<b><u>TENS OF OTHER INDUSTRY CERTIFICATIONS ALSO OFFERED!</u></b>
+<br><br>
+Many companies, from CISCO to Cadence, have established their centres of excellence at LPU to enhance student employability. At LPU, students can attend classes in industry collaborated programmes and gain access to laboratories in centres of excellence established by companies.<br><br><a href="academics/industry-immersion.php" class="more-link">Read More</a></td>
+  
+    <td>
+<img src="t3.jpg" width=100%/>
+<br>
+<b><u>LPU COLLABORATION WITH GOOGLE!</u></b>
+<br><br>
+Lovely Professional University has collaborated with Google for providing Android specialization training to its engineering students within the campus.<br><br><a href="https://developers.google.com/training/programs/india/" class="more-link" target="_blank">Read More</a></td>
+</tr>
+<tr>
+    <td>
+<img src="t4.jpg" width=100%/>
+<br><br>
+<b><u>LPU STUDENTS TO BE TRAINED ON SAP BUSINESS SUITE</u></b>
+<br>
+A training that costs over Rs. 3 Lac is provided to LPU students of B.Tech., BCA, MCA, MBA, M.Com., BBA (Hons.), B.Com (Hons.), etc. completely free. Students can get training in SAP Business Process Modules, leading to SAP Consultant Certification.<br><br><a href="../home/pdf/Document on SAP for LPU.pdf" class="more-link" target="new">Read More</a></div>
+</td>
+  
+    <td>
+<img src="t5.jpg" width=100%/>
+<br>
+<b><u>NOW GET ORACLE CERTIFICATION TRAINING AT LPU</u></b>
+<br><br>
+LPU students can avail training in Oracle's popular tracks (BI, Big Data and & IoT) leading to OCA (Oracle Certified Administrator) certification. This training, which usually costs over Rs. 1.5 Lac, is provided for free to LPU students.<br><br><a href="../home/pdf/Value of Certification.pdf" class="more-link" target="new">Read More</a></td>
+    <td>
+<img src="t6.jpg" width=100%/>
+<br>
+<b><u>HYATT SELECTS STUDENTS @ 15 LAKHS PACKAGE</u></b>
+<br><br>
+Hyatt, the global hospitality super brand selected 6 LPU students at record packages!<br><br><a href= "http://www.lpu.in/FullNewsRelease/Top-American-Hotels-recruited-LPU-Students-at-Rs-15-Lakh.php" target="new">Read More...</a></td>
+  </tr>
+</table>
+
+
+<hr width=30%>
+<br>
+<center>     <h1>Revolutionizing Education!</h1>
+              <h3>Bringing the distance in Education...</h3> </center>
+<br>
+<hr width=30%>
+<br>
+<table>
+<tr>
+<td>The Distance education looks forward to bring your academia at your doorstep. <br>So no matter how far away you are from us, we will alwways be in the reach of a mouseclick.<br> Currently there are 543 centre of LPU scattered all over India to bring on your doorstep the quality<br> education of your choice.
+<br><br>
+Read more on The Lovely Faculty of Distance Education<a href=" http://www.lpude.in/" target="blank"> Here...</a></div></td>
+<td><br><br><br><video controls height="200" width="450" >
+<source src="dist.mp4" type= "video/mp4">
+</video></td>
+</tr>
+
+</table>
+
+
+<br><br>
+<hr width=30%>
+<br>
+<center>     <h1>25K STUDENTS FROM 29 STATES & 50 COUNTRIES!</h1>
+              <h3>What unites them? They all #thinkBIG</h3> </center>
+<br>
+<hr width=30%>
+
+<table cellpadding="70">
+  
+  <tr>
+           <td>
+<img src="b1.gif" width=100%/>
+<br>
+<b><u>RECORD PLACEMENTS WITH OVER 550 HIRED ON A SINGLE DAY BY COGNIZANT. <br><br>NOT ONCE, BUT TWICE.</u></b>
+<br><br>
+Cognizant, one of the largest and fastest growing IT behemoths, hired over 550+ students in both 2014 and 2015, thereby setting a new record in North India.</td>
+            <td>
+<img src="b2.gif" width=100%/>
+<br>
+<b><u>WHY RESTRICT TO BOOKS, WHEN YOU CAN RACE GO KARTS TO LEARN ENGINEERING!</u></b>
+<br><br>
+LPU students design and race go karts, electric bikes, solar cars and efficient pedal cycles. That's the way to learn engineering!</td>
+  
+    <td>
+<img src="b3.gif" width=100%/>
+<br>
+<b><u>STUDENTS FOREGO SECURE JOBS TO LAUNCH STARTUP E-RICKSHAW, A NEW GREEN TRANSPORTATION REVOLUTION!</u></b>
+<br><br>
+LPU students floated an 'e-rickshaw' start-up that brought down the economic cost of local in-campus transportation, reducing environmental depletion.</td>
+</tr>
+<tr>
+    <td>
+<img src="b4.gif" width=100%/>
+<br><br>
+<b><u>STUDENTS GO BEYOND BUSINESS PLANS AND LAUNCH START-UPS AT WORLD'S FIRST STUDENT-RUN MALL!</u></b>
+<br>
+Tons of students start businesses in the university mall while still studying. Ventures include departmental stores, speciality stores etc.</td>
+  
+    <td>
+<img src="b5.gif" width=100%/>
+<br>
+<b><u>EXPLORING UNCHARTERED TERRITORY OF AMERICAN FOOTBALL</u></b>
+<br><br>
+With support of NFL (USA), LPU students are trying their hand at American Football.</td>
+    <td>
+<img src="b6.gif" width=100%/>
+<br>
+<b><u>FIRST EVER PVT. UNIVERSITY TO BAG OVERALL TROPHY AT AIU.</u></b>
+<br><br>
+LPU became the first pvt. university ever to be amongst the overall winners at national level AIU Unifest!</td>
+  </tr>
+</table>
+
+
+<br><br><br><br>
+<div class="footer">Copyright &copy Sakshi Priya</div>
+
+</body>
+</html> 

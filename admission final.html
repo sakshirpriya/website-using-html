@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<head>
+<title>Admission</title>
+
+
+<link rel="stylesheet" 
+
+href="https://cdnjs.cloudflare.com/ajax/libs/font-
+
+awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="home/css/font-icons.css" 
+
+type="text/css" /><style>
+* {box-sizing:border-box}
+
+
+body 
+{background-color:white;
+font-family: Verdana, Geneva, sans-serif;
+font-size:14px;
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+.container {
+  position: absolute;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 140%;
+  height: 100px;
+
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 170px;
+  right: 250px;
+  height: 100%;
+  width: 140%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.container:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: Black;
+  font-size: 40px;
+font-family: "Comic sans ms";
+font-style: oblique;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+a.apply:hover {background: silver;}
+
+
+
+.fa {
+  padding: 9px;
+  font-size: 12px;
+  width: 7px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 1px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+#icons
+{
+float:right;
+}
+
+#header{
+background-color:white;
+color:white;
+font-size:18px;
+font-weight:bold;
+text-align:center;
+}
+.nav{
+margin-top:60px;
+float:left;
+width:200px;}
+
+.article{
+margin-left:250px;
+border-left:1px solid black;
+
+}
+.footer{padding:15px;
+color:white;
+background-color:black;
+text-align:center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    float: middle ;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.a1
+{
+width:700px;
+float:right;
+}
+
+.a2
+{
+width:100%;
+float:left;
+}
+.a2
+{
+width:100%;
+float:right;
+}
+
+</style>
+
+
+
+
+
+</head>
+<body>
+
+<ul >
+<li><a href="home.html">Home   </a></li>
+<li><a href="courses.html">Courses  </a></li>
+<li><a href="adm.html">Admissions  </a></li>
+<li><a href="faculty.html">Faculty  </a></li>
+<li><a href="host.html">Hostel Facilities  </a></li>
+<li><a href="pc.html">Placement Cell  </a></li>
+<li><a href="eventa.html">Events  </a></li>
+<li><a href="about.html">About  </a></li>
+<li><a href="cu.html">Contact Us  </a></li>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+<li><br/></li>
+<li style=" background-color: #f48220 ;"> <a style="color: #000;"  
+
+class="apply" href="http://admission.lpu.in/index?
+
+Nest=Engineering" target="_blank">Apply Now</a> </li>
+</ul>
+
+
+
+<br><br><br>
+<div id ="icons" style="float:top;">
+<!-- Add font awesome icons -->
+<a href="https://www.facebook.com/LPUUniversity/" 
+
+target="blank" class="fa fa-facebook"></a>
+<a href="https://twitter.com/lpuuniversity" target="blank" 
+
+class="fa fa-twitter"></a>
+<a href="https://plus.google.com/+LpuIn-lovely-professional-
+
+university" target="blank" class="fa fa-google"></a>
+<a href="https://in.linkedin.com/in/lovelyprofessionaluniversity" 
+
+target="blank" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-rss"></a>
+</div>
+<br><br>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <a href="#After 10">AFTER 10th</a>
+  <a href="#After 12">AFTER 12th</a>
+  <a href="#After grad">AFTER GRADUATION</a>
+  <a href="#After post grad">AFTER POST GRADUATION</a>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+     
+
+<div class="table">
+<table cellpadding="70">
+  
+  <tr>
+<td>
+<img src="career-after-10th.png" width=100%/>
+<br></td>
+
+<tr>
+<td>
+<img src="27-1432705540-lpu-classroom.jpg" width=100%/>
+<br></td>
+<tr>
+<td>
+<img src="27-1432705534-lpu-lab.jpg" width=100%/>
+<br></td>
+
+</tr>
+</div>
+<a id="After10"></a>
+<hr align="center" width="30%">
+<br>
+<center>     <h2>Admission after 10th</h2>
+             
+</center>
+<br>
+<hr width=30%>
+<div class="a1">
+<p >
+<h3> <center>ADMISSION</center></h3>
+Admission in Lovely Professional University in all courses is conducted on a merit basis through an online entrance exam. LPU organizes its own entrance exam, called the Lovely Professional University National Entrance and Scholarship Test (LPU NEST). It is conducted every year in the month of April and May. In 2015 over 400,000 students appeared for the entrance examination. The exam has been conducted online since 2011.
+      <h3>Eligibility Criteria (Qualifying Exam)</h3>
+
+Pass with 50% aggregate marks in 10th (with Mathematics, Science and English) or equivalent.
+
+For a candidate, who has not studied English as a subject, the condition of English may be waived off provided the candidate in his qualifying exam has studied in English medium.
+<h3> Merit in qualifying examination</h3>
+<h3>Autumn Term</h3>
+<h3> Autumn Term is the first/odd semester of an academic session/year.</h3>
+
+APPLIED CHEMISTRY-I
+APPLIED CHEMISTRY LABORATORY- I
+STUDENT CENTERED ACTIVITY-I
+ENGINEERING DRAWING–I
+GENERAL WORKSHOP PRACTICE–I
+APPLIED MATHEMATICS-I
+ENGLISH AND COMMUNICATION SKILLS -I
+ENGLISH AND COMMUNICATION SKILLS-I LABORATORY
+APPLIED PHYSICS-I
+APPLIED PHYSICS LABORATORY- I
+<h2>Spring Term</h2>
+<h3> Spring Term is the second/even semester of an academic session/year.</h3>
+
+BASIC ELECTRONICS
+BASIC ELECTRONICS LABORATORY
+STUDENT CENTERED ACTIVITY-II
+BASIC ELECTRICAL ENGINEERING
+BASIC ELECTRICAL ENGINEERING LABORATORY
+BASICS OF INFORMATION TECHNOLOGY
+GENERAL WORKSHOP PRACTICE-II
+APPLIED MATHEMATICS-II
+ENGLISH AND COMMUNICATION SKILLS -II
+ENGLISH AND COMMUNICATION SKILLS-II LABORATORY
+APPLIED PHYSICS-II
+APPLIED PHYSICS LABORATORY- II
+
+<h3>Scholarship on the basis of LPUNEST </h3>
+
+
+ 
+Following are the details of criteria and scholarship amount applicable  
+ 
+<h3>Scholarship Details</h3>
+
+ 
+
+
+
+Percentage Slab  Scholarship amount (per semester) (in Rs.) <br/>  
+90% marks in LPUNEST- 2017*  15000  <br/>
+Top 10% applicants appearing for LPUNEST- 2017*  15000  <br/>
+Next 10% (11% to 20%) applicants appearing for LPUNEST- 2017*  10000  <br/>
+Next 15% (21% to 35%) applicants appearing for LPUNEST- 2017*  5000  <br/>
+
+* Subject to qualifying LPUNEST- 2017  
+<br/>
+<br/>
+
+
+<h3>Scholarship on the basis of Percentage in qualifying exam </h3>
+
+
+ 
+
+Scholarship on the basis of Percentage marks in qualifying examination (scoring equal to or more than 70% marks)  
+<h4>Following are the details of criteria and scholarship amount applicable </h4> 
+ 
+<h3>Scholarship Details</h3>
+
+ 
+
+
+
+<h4>Criteria  Scholarship amount (per semester) (in Rs.)   </h4>
+98% or above or for CBSE 10 CGPA in 10th  15000  <br/>
+90% - 97.99% in 10th  15000  <br/>
+80% - 89.99% in 10th  10000  <br/>
+70% - 79.99% in 10th  5000  <br/>
+
+
+</p>
+<div class="a2">
+
+  
+  <tr>
+<td>
+<img src="Courses-After-12th-Class.jpg" width=100% border="3"/>
+<br></td>
+<tr>
+<td>
+
+<img src="Student's of B.Sc Agriculture doing Organic Farming at LPU campus.jpg" width=100% border="3"/>
+<br></td>
+ <tr>
+<td>
+<img src="Students of Airlines  & Tourism programs learning the practical skills in a 'Practice Aircraft' at Lovely Professional University (LPU)...JPG" width=80% border="3"/>
+<br></td>
+<tr>
+<td>
+
+
+</tr>
+</div>
+<a id="After 12"></a>
+<hr align="center" width="30%">
+<br>
+<center>     <h2>Admission After 12th</h2>
+           
+
+</center>
+<br>
+<hr width=30%>
+<div class="a2"></div>
+<p >
+<center><h3>After 12th</center></h3>
+An Engineering program which seamlessly articulates the concepts from basic science to technology with relevant practice through lab and projects for building the problem solving skills, keeping industry requirements in place. Students will develop competence in areas like Programming, Database Management Systems, Networks and Security, Operating Systems, Cloud Computing etc. To enable the students to keep pace with changing technological advances, the university has industrial tie-ups with Oracle and SAP. Studying these courses as a part of the curriculum would provide a WILD CARD entry to industry.
+
+
+To enable the students to keep pace with changing technological advances, the university has industrial tie-ups with Oracle and SAP. Studying these courses as a part of the curriculum would provide a WILD CARD entry to industry.
+
+
+
+
+A training that costs over Rs. 3 Lac is provided to LPU students completely free
+
+
+
+Oracle's training worth Rs. 1 Lac is provided for free to LPU students. 
+
+
+
+
+
+<h4>Eligibility Criteria (Qualifying Exam)</h4>
+
+Pass with 60% aggregate marks in 10+2 (with Physics, Mathematics and English) or equivalent, subject to qualifying  LPUNEST-2017 <br/>
+
+For a candidate, who has not studied English as a subject, the condition of English may be waived off provided the candidate in his qualifying exam has studied in English medium.</br>
+
+
+
+
+<h3>Admission Criteria</h3>
+
+Merit in LPUNEST-2017, subject to eligibility criteria. 
+
+
+Entrance/Eligibility Test
+LPUNEST-2017 is applicable. 
+<h3>Programmes Offered</h3>
+<h4>After 12th</h4>
+<br/>
+
+Management<br/>
+Commerce<br/>
+Arts<br/>
+Computer Applications(CA)/Information Technology(IT)<br/>
+Library And Information Sciences<br/>
+Management<br/>
+
+Bachelor of Business Administration [BBA]<br/> 
+Min. Duration 3 Years<br/>
+Max. Duration 6 Years<br/>
+
+
+Commerce<br/>
+
+Bachelor of Commerce [B.Com]<br/> 
+Min. Duration 3 Years<br/>
+Max. Duration 6 Years<br/>
+
+
+
+Arts<br/>
+
+Bachelor of Arts [B.A.]<br/> 
+Min. Duration 3 Years<br/>
+Max. Duration 6 Years<br/>
+
+
+Computer Applications(CA)/Information Technology(IT)<br/>
+
+Bachelor of Computer Applications [BCA] <br/>
+Min. Duration 3 Years<br/>
+Max. Duration 6 Years<br/>
+
+
+Bachelor of Science (Information Technology) [B.Sc IT] <br/>
+Min. Duration 3 Years<br/>
+Max. Duration 6 Years<br/>
+
+
+Diploma in Computer Applications [DCA]<br/> 
+Min. Duration 1 Year<br/>
+Max. Duration 3 Years<br/>
+
+Library And Information Sciences<br/>
+
+Diploma in Library & Information Sciences [DLIS] <br/>
+Min. Duration 1 Year<br/>
+Max. Duration 3 Years<br/>
+	
+
+
+
+
+</p>
+
+
+
+
+
+
+  
+  <div class="a3">
+<img src="Capture.png" width=100%/>
+<br>
+
+<tr>
+<td>
+<img src="Capture1.PNG" width=100%/>
+<br></td>
+<tr>
+<td>
+<img src="27-1432705534-lpu-lab.jpg" width=100%/>
+<br></td>
+
+</tr>
+</div>
+<a id="after grad"></a>
+<hr align="center" width="30%">
+<br>
+<center>     <h2>Admission after GRADUATION</h2>
+             
+</center>
+<br>
+<hr width=30%>
+<div class="after 12">
+<p >
+<h3> <center>ADMISSION</center></h3>
+Learners are matured in a specific area of specialization by extending their prior knowhow through meticulous set of advanced courses with a dissertation to showcase their research potential. The focus for thesis is to solve an industry centric problem.
+
+      <h3>Eligibility Criteria (Qualifying Exam)</h3>
+
+Pass with 60% aggregate marks in B.E. or B.Tech. (Mechanical or Production or Industrial or Automobile or Aeronautical) or equivalent, subject to qualifying LPUNEST-2017 or GATE. 
+OR 
+In case marks scored in Graduation are 70% or above, then LPUNEST-2017 or GATE will be exempted and candidate may apply for admission.
+<h3> Admission Criteria</h3>
+Merit in qualifying examination, subject to eligibility criteria.
+<img src="Capture3.PNG" width=100%>
+<h3>Salient Features</h3>
+
+<h4>Industry Immersion</h4><br/>
+
+Trainings, projects and guest lectures collaborated with industries help to learn from real life situations<br/>
+
+<h4>Career Prospects</h4>
+
+<h4>Primary Prospects<h4/><br/>
+
+<p>Students can attain various professional positions as Developers, Design Engineers, Data Base Administrator, Network Administrator, Data Analyst in IT industry and facilitate their placement in government, semi-government and leading companies like Cognizant, Accenture, HCL , Wipro Technologies, TCS, LG Soft, Tech Mahindra and Infosys.Career in teaching as Lecturer or Assistant Professor in various universities and academic institution can also be started.</p>
+
+<h4>Secondary Prospects</h4>
+
+<p>Opportunities also include pursuing PhD and research position in reputed universities and taking up research assignments in algorithm, database, data mining, cloud computing, networking, artificial intelligence, intelligent systems, web development and various allied areas. Graduates can also enroll into DRDO, CSIO, ISRO labs for doctorate programmes.<p><br/>
+
+<h4>Tertiary Prospects<h4/>
+
+<p>Entrepreneurship ventures such as consultancy, coaching institutes, training centres and computer retail stores can be started.</p>
+<h3>Scholarship on the basis of LPUNEST </h3>
+
+
+ 
+Following are the details of criteria and scholarship amount applicable  
+ 
+<h3>Scholarship Details</h3>
+
+ 
+
+
+
+Percentage Slab  Scholarship amount (per semester) (in Rs.) <br/>  
+90% marks in LPUNEST- 2017*  15000  <br/>
+Top 10% applicants appearing for LPUNEST- 2017*  15000  <br/>
+Next 10% (11% to 20%) applicants appearing for LPUNEST- 2017*  10000  <br/>
+Next 15% (21% to 35%) applicants appearing for LPUNEST- 2017*  5000  <br/>
+
+* Subject to qualifying LPUNEST- 2017  
+<br/>
+<br/>
+</div>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table">
+<table cellpadding="70">
+  
+  <tr>
+<td>
+<img src="Capture.png" width=100%/>
+<br></td>
+
+<tr>
+<td>
+<img src="Capture1.PNG" width=100%/>
+<br></td>
+<tr>
+<td>
+<img src="27-1432705534-lpu-lab.jpg" width=100%/>
+<br></td>
+
+</tr>
+</div>
+<a id="after10th"></a>
+<hr align="center" width="30%">
+<br>
+<center>     <h2>Admission After POST GRADUATION</h2>
+             
+</center>
+<br>
+<hr width=30%>
+<div class="a1">
+<p >
+<h3> <center>ADMISSION</center></h3>
+<h3><center>Courses Offered In LPU</center></h3>
+<img src="Capture7.PNG" width=100% >
+
+      <h3>Eligibility Criteria (Qualifying Exam)</h3>
+
+<h4>Pass with 55% aggregate marks in M.Sc. (Economics) or M.A. (Economics) or equivalent, subject to qualifying LPUNEST-2017 and Interview.
+
+(5% relaxation to SC/ST/OBC candidates)</h4>
+
+<h4>Salient Features</h4>
+
+<h4>Teaching and Research orientation</h4>
+
+<p>Subjects on Teaching and Research Aptitude, Research Methodology help enhance professional skills in the students.
+
+Visits
+
+Educational visits to mental health institutes, clinics, hospitals, NGOs, rehabilitation centres, case studies provide practical exposure for understanding contemporary psychological issues.
+
+Dissertation
+
+Dissertation work help strengthen the research orientation in students.
+
+Industry Immersion
+
+Students get the opportunities to interact with experts in order to gain understanding of the subject.
+
+Professional Enhancement
+
+In addition to core curricula, course offers subjects like communication and soft skills to enhance personality and employability.
+
+Career Prospects
+
+Primary Prospects
+
+Students can attain teaching and research jobs in universities, colleges and schools
+
+Secondary Prospects</p>
+</div>
+
+Job positions as Counsellors in clinics, schools, industries, researchers at different government and non-governmental agencies.
+
+Tertiary Prospects
+
+Qualifying various competitive exams for Banks and other Public sector organizations can be explored .Career as Social Worker in various NGOs.</p>
+
+
+
+
+
+
+
